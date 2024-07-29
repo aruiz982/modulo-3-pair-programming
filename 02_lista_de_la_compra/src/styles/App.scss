@@ -1,0 +1,49 @@
+@import './core/reset';
+@import './core/variables';
+
+.tasksContainer {
+  display: inline-block;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 250px;
+  margin-left: 400px;
+  line-height: 75px;
+  padding: 30px;
+  border: 1px solid $color-slategrey;
+  background-color: $color-whitesmoke;
+
+}
+.completed { 
+  text-decoration: line-through;
+}
+
+.title {
+  list-style-type: none;
+}
+
+.title {
+  padding-left: 10px;
+  text-align: center;
+  border: 1px solid $color-slategrey;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.formulario {
+  display: flex;
+  gap: 20px
+}
+
+.btn {
+  background-color:$color-White;
+  color: $color-Black;
+  margin-left: 10px;
+}
+
+.header {
+  background-color: cadetblue;
+  position: fixed;
+}
+
