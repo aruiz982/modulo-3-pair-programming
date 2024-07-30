@@ -2,15 +2,13 @@
 @import './core/variables';
 
 .tasksContainer {
-  display: inline-block;
-  justify-content: center;
+  
+  display:inline;
+  justify-content:center;
   flex-direction: row;
-  width: 100%;
   line-height: 75px;
-  padding: 30px, 30px;
   border: 1px solid $color-slategrey;
   background-color: $color-whitesmoke;
-  margin-top: 50px;
 
 }
 .completed { 
@@ -45,6 +43,5 @@
 
 .header {
   background-color: cadetblue;
-  
 }
 
